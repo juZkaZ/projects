@@ -1,0 +1,22 @@
+body {
+    background: black;
+}
+
+p {
+    color: rgb(247, 224, 23);
+    font-family: 'Rampart One', cursive;
+    font-size: 400%;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.clock {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: chartreuse;
+    font-size: 60px;
+    font-family: 'Rampart One', cursive;
+    letter-spacing: 7px;
+}
